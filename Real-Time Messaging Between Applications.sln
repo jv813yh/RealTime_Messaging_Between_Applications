@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorChat.WPF", "Real-Time Messaging Between Applications\ColorChat.WPF.csproj", "{8E67A9BF-2A02-4F6A-BB52-35914D457266}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorChat.Domain", "ColorChat.Domain\ColorChat.Domain.csproj", "{7B2D3248-E4CF-4D09-9F36-15445EF6B3FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorChat.SignalR", "ColorChat.SignalR\ColorChat.SignalR.csproj", "{8FFDC9C9-63EA-49B6-A999-9594F6210A64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E67A9BF-2A02-4F6A-BB52-35914D457266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E67A9BF-2A02-4F6A-BB52-35914D457266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E67A9BF-2A02-4F6A-BB52-35914D457266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E67A9BF-2A02-4F6A-BB52-35914D457266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2D3248-E4CF-4D09-9F36-15445EF6B3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2D3248-E4CF-4D09-9F36-15445EF6B3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2D3248-E4CF-4D09-9F36-15445EF6B3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2D3248-E4CF-4D09-9F36-15445EF6B3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FFDC9C9-63EA-49B6-A999-9594F6210A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFDC9C9-63EA-49B6-A999-9594F6210A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFDC9C9-63EA-49B6-A999-9594F6210A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFDC9C9-63EA-49B6-A999-9594F6210A64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {575A2767-750D-463B-9CAE-86A530F1DBEC}
+	EndGlobalSection
+EndGlobal
